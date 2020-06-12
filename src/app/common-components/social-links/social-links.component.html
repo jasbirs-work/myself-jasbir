@@ -1,0 +1,15 @@
+<div class="d-flex">
+
+  <div *ngIf="greycirclebg;else blankdiv">
+    <div class="conLogo">
+      <span class="conIcon"><img [src]="image" alt=""></span>
+    </div>
+
+  </div>
+  <ng-template #blankdiv>
+    <div class="conLogoblank">
+      <span class="conIcon"><img [src]="image" alt=""></span>
+    </div>
+  </ng-template>
+
+</div>

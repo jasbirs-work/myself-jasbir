@@ -1,0 +1,18 @@
+<div class="skills-container">
+  <div class="skills">
+
+    <span>{{skill}}</span>
+    <span>{{skillPrecentage}}%</span>
+
+  </div>
+
+  <div class="percent-complete-container">
+    <div class="percent-complete">
+      <!-- <mat-progress-bar mode="determinate" value="80"></mat-progress-bar> -->
+      <p>
+        <ngb-progressbar type="warning" [value]=skillPrecentage [striped]="true" [animated]="true">
+          <i>{{skillPrecentage}}%</i></ngb-progressbar>
+      </p>
+    </div>
+  </div>
+</div>

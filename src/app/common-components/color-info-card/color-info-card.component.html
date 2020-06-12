@@ -1,0 +1,41 @@
+<div *ngIf="bgGreen;else other_content">
+  <mat-card>
+    <div class="row custom-edit">
+      <div class="col-sm-3">
+        <div *ngIf="experienceSpan && companyName" class="text-center customInfo">
+          <p>{{experienceSpan}}</p>
+          <h5>{{companyName}}</h5>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <div class="card-body informations">
+          <h5 *ngIf="designationRole">{{designationRole}}</h5>
+          <h6 class="d-flex category" *ngIf="institue">{{institue}}</h6>
+          <p *ngIf="experienceDetails">{{experienceDetails}}</p>
+        </div>
+      </div>
+    </div>
+  </mat-card>
+</div>
+<ng-template #other_content>
+  <mat-card>
+    <div class="row">
+      <div class="col-sm-3 ref-img-wrapper">
+        <div class="text-center ">
+          <div *ngIf="imagePath" class="person-wrapper">
+            <img [src]="imagePath" alt="" srcset="">
+          </div>
+          <p>{{name}}</p>
+          <h5 class="category">{{role}}</h5>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <div class="card-body informations">
+          <h5 *ngIf="designationRole">Front End Developer</h5>
+          <h6 *ngIf="institue"> college name </h6>
+          <p>{{reference}}</p>
+        </div>
+      </div>
+    </div>
+  </mat-card>
+</ng-template>

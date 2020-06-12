@@ -1,0 +1,31 @@
+.customInfo {
+  background-color: #378c3f;
+  min-height: 190px;
+  padding: 65px;
+  color: #fff;
+}
+.informations {
+  min-height: 190px;
+  padding-top: 30px;
+  h5 {
+    display: flex;
+    font-weight: 300;
+    font-size: 27px;
+  }
+}
+.person-wrapper {
+  img {
+    max-height: 125px;
+    max-width: 125px;
+  }
+}
+.category {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #9a9a9a;
+}
+.ref-img-wrapper {
+  p {
+    margin-bottom: 0;
+  }
+}

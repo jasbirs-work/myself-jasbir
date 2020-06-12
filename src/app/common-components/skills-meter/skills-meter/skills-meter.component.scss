@@ -1,0 +1,16 @@
+/* .percent-complete {
+  max-width: 470px;
+} */
+
+.percent-complete {
+  p {
+    max-width: 400px;
+  }
+}
+.skills {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  color: #378c3f;
+}
