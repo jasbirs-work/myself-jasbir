@@ -15,3 +15,13 @@ label,
 textarea {
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
 }
+@media only screen and (max-width: 600px) {
+  //  for mobile screens
+
+  .skill-comm-padd {
+    padding-left: 15px !important;
+  }
+  .about-social-wrap {
+    right: 53px !important;
+  }
+}
