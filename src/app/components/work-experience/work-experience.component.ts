@@ -16,7 +16,7 @@ export class WorkExperienceComponent implements OnInit {
 
       companyName: "Optimize IT Systems",
       experienceDetails:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
+        "This job involved website development and design using different technologies, where i was given training on different front-end technologies that inluded HTML5, CSS, Javascript, ES6, and JS frameworks. ",
       designation: "Graduate Trainee",
       institute: "Guru Nanak Institute of Technology",
       degree: "Bachelors Degree",
@@ -29,7 +29,7 @@ export class WorkExperienceComponent implements OnInit {
 
       companyName: "Optimize IT Systems",
       experienceDetails:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
+        "This job involves website & apps developments and design using different technologies such as Javascript, Angular 8, React Native, HTML, CSS, Bootstrap 4+, LESS, SASS, Material UI Framworks, NG-Bootstrap and many more. This job also involves Live Client support for existing projects for enhancements in different technologies.",
       designation: "Software Developer",
       institute: "Guru Nanak Institute of Technology",
       degree: "Bachelors Degree",

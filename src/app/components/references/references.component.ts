@@ -15,7 +15,7 @@ export class ReferencesComponent implements OnInit {
       id: 1,
       name: "Aiyana",
       role: "CEO / WEBM",
-      imagePath: "../.../../../../assets/reference-image-1.jpg",
+      imagePath: "assets/reference-image-1.jpg",
       ref:
         "Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.",
     },
@@ -23,7 +23,7 @@ export class ReferencesComponent implements OnInit {
       id: 2,
       name: "Braiden",
       role: "CEO / CREATIVEM",
-      imagePath: "../.../../../../assets/reference-image-2.jpg",
+      imagePath: "assets/reference-image-2.jpg",
       ref:
         "Braiden Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.",
     },
@@ -31,7 +31,7 @@ export class ReferencesComponent implements OnInit {
       id: 3,
       name: "Alexander",
       role: "CEO / WEBNOTE",
-      imagePath: "../.../../../../assets/reference-image-3.jpg",
+      imagePath: "assets/reference-image-3.jpg",
       ref:
         "Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.",
     },

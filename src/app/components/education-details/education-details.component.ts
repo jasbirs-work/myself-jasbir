@@ -15,7 +15,7 @@ export class EducationDetailsComponent implements OnInit {
       degree: "Bachelors Degree",
       degreeName: "Bachelor of Technology",
       educationDetails:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
+        "I completed my Bachelor of Technology in Computer Science and Engineering from M.A.K.A.U.T(WBUT) in Guru Nanak Institute of Technology in 2018, securing 78.7% Score.",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export class EducationDetailsComponent implements OnInit {
       degree: "ISC",
       degreeName: "COUNCIL FOR THE INDIAN SCHOOL CERTIFICATE EXAMINATIONS",
       educationDetails:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
+        "I have completed my Higher Secondary in 2014 from COUNCIL FOR THE INDIAN SCHOOL CERTIFICATE EXAMINATIONS in Little Star High School securing 70.25% Score",
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ export class EducationDetailsComponent implements OnInit {
       degree: "ICSE",
       degreeName: "Indian Certificate of Secondary Education",
       educationDetails:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
+        "I have completed my Secondary examination in 2012 from Indian Certificate of Secondary Education in Little Star High School securing 66.75% Score",
     },
   ];
   constructor() {}

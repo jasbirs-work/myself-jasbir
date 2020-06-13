@@ -1,9 +1,30 @@
 .about-info {
   padding: 30px;
+  p {
+    line-height: 29px;
+    padding-top: 21px;
+  }
 }
 .details {
   padding: 30px;
 }
 p {
   font-size: 14px;
+}
+.social-links {
+  position: absolute;
+  top: 0px;
+}
+app-social-links {
+  padding: 20px;
+}
+.about-social-wrap {
+  padding-top: 25px;
+  position: absolute;
+  bottom: 10px;
+  right: 396px;
+  z-index: 100;
+}
+.about-me-wrap {
+  padding: 50px 0px;
 }

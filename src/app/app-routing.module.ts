@@ -1,11 +1,10 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
-import { HeaderComponent } from "./components/header/header/header.component";
-import { SocialLinksComponent } from "./common-components/social-links/social-links.component";
-
+import { HomeComponent } from "./components/home/home.component";
+//
 const routes: Routes = [
-  // { path: "header", component: HeaderComponent },
-  // { path: "social", component: SocialLinksComponent },
+  { path: "", component: HomeComponent },
+  //  { path: "social", component: SocialLinksComponent },
   /* {path:'**', component:pagenotfound} */
 ];
 
@@ -14,4 +13,4 @@ const routes: Routes = [
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
-export const routingComponents = [HeaderComponent, SocialLinksComponent];
+export const routingComponents = [HomeComponent];

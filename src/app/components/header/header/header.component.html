@@ -9,15 +9,15 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarsExample05">
       <ul class="navbar-nav">
 
-        <div class="collapse navbar-collapse " id="navigation">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
-          </ul>
-        </div>
+        <!-- <div class="collapse navbar-collapse " id="navigation"> -->
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+        </ul>
+        <!-- </div> -->
       </ul>
 
     </div>
@@ -34,8 +34,19 @@
     <div class="content-center text-center">
       <div class="cc-profile-image"><a href="#" class="pulse"><img src="assets/my-img.jpg" alt="Image"></a>
       </div>
-      <div class="h2 title">Jasbir Singh</div>
-      <p class="category text-white">Software Developer</p>
+      <div class="h2 myname">Jasbir Singh</div>
+      <p class="category designation text-white">Software Developer</p>
+      <div class="d-flex justify-content-center">
+        <div class="hire-me">
+          <!-- <app-custom-buttons>Hire Me</app-custom-buttons> -->
+          <button mat-stroked-button>
+            Hire Me
+          </button>
+        </div>
+        <div class="download-cv">
+          <app-custom-buttons>Download CV</app-custom-buttons>
+        </div>
+      </div>
     </div>
   </div>
 </div>
