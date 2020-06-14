@@ -31,8 +31,7 @@ textarea {
     font-size: 16px !important;
   }
 }
-@media only screen and (max-width: 375px) {
-}
+
 @media only screen and (max-width: 414px) {
 }
 
@@ -52,6 +51,11 @@ textarea {
     .cc-contact {
       padding: 8% 0 8% 0% !important;
     }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .about-social-wrap {
+    right: 28px !important;
   }
 }
 @media (min-width: 480px) {
