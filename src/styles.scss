@@ -24,4 +24,26 @@ textarea {
   .about-social-wrap {
     right: 53px !important;
   }
+  .customInfo {
+    padding: 28px !important;
+  }
+  .informations {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .about-social-wrap {
+    right: 21px !important;
+  }
+  .customInfo {
+    padding: 28px !important;
+  }
+  .informations {
+    font-size: 16px !important;
+  }
+  .cc-contact-information {
+    .cc-contact {
+      padding: 8% 0 8% 0% !important;
+    }
+  }
 }
