@@ -70,7 +70,10 @@ textarea {
 @media (min-width: 801px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .about-social-wrap {
-    right: 327px !important;
+    right: 408px !important;
+  }
+  .cc-contact-information .cc-contact {
+    padding: 8% 0 8% 20%;
   }
 }
 @media (min-width: 1025px) {
