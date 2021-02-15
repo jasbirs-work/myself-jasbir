@@ -9,19 +9,19 @@ export class ProfessionalSkillsComponent implements OnInit {
   skillHtml: string = "HTML";
   skillHtmlPrecentage: string = "80";
   skillCSS: string = "CSS";
-  skillCSSPrecentage: string = "75";
+  skillCSSPrecentage: string = "80";
   skillBootstrap4: string = "CSS";
-  skillBootstrap4Precentage: string = "75";
+  skillBootstrap4Precentage: string = "80";
   skillJS: string = "JAVASCRIPT";
-  skillJSPrecentage: string = "60";
+  skillJSPrecentage: string = "75";
   skillTypescript: string = "TYPESCRIPT";
-  skillTypescriptPrecentage: string = "60";
+  skillTypescriptPrecentage: string = "75";
   skillAngular: string = "ANGULAR";
-  skillAngularPrecentage: string = "60";
+  skillAngularPrecentage: string = "80";
   skillAngularJS: string = "ANGULAR JS";
   skillAngularJSPrecentage: string = "50";
   skillSASS: string = "SASS";
-  skillSASSPrecentage: string = "60";
+  skillSASSPrecentage: string = "80";
   constructor() {}
 
   ngOnInit() {}

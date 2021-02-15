@@ -10,6 +10,7 @@ declare var $: any;
 @HostListener("window:scroll", ["$event"])
 export class HeaderComponent implements OnInit {
   @Output() valueChange = new EventEmitter();
+  @Output() headerValue = new EventEmitter();
   textValue: number;
   checking = "Ram";
   scroll: boolean = false;
@@ -33,4 +34,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
     window.addEventListener("scroll", this.scrolling, true);
   }
+  sectionTravel(val){
+  //  window.scrollBy(100, 100);
+    //console.log("about")
+    console.log({val})
+    this.headerValue.emit(val)
+  }
+  // skill(){
+  //   this.headerValue.emit("skills clicked")
+  // }
 }

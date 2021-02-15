@@ -1,15 +1,15 @@
-<app-header></app-header>
+<app-header (headerValue)="sectionRender($event)"></app-header>
 <!-- (valueChange)="displaycounter($event)" -->
 
 
 <!-- <router-outlet></router-outlet>
 <a href="" routerLink="/social" routerLinkActive="active">social</a>
 <a href="" routerLink="/header" routerLinkActive="active">header</a> -->
-<app-about-me></app-about-me>
-<app-professional-skills></app-professional-skills>
-<app-work-experience></app-work-experience>
-<app-education-details></app-education-details>
+<app-about-me id="aboutme"></app-about-me>
+<app-professional-skills id="myskills"></app-professional-skills>
+<app-work-experience id="workexperience"></app-work-experience>
+<app-education-details id="educationdetails"></app-education-details>
 <!-- References sections add later when you have reference-->
 <!-- <app-references></app-references> -->
-<app-contact-me></app-contact-me>
-<app-footer></app-footer>
+<app-contact-me id="contactme"></app-contact-me>
+<app-footer id="footer"></app-footer>
