@@ -11,5 +11,7 @@ export class ContactMeComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  myLinkedinprofile() {
+    location.replace("www.linkedin.com/in/jasbir-singh-js")
+  }
 }
