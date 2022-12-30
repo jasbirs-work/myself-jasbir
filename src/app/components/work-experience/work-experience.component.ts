@@ -25,7 +25,7 @@ export class WorkExperienceComponent implements OnInit {
     {
       id: 2,
       name: "Jasbir",
-      experienceSpan: "January 2019 - PRESENT",
+      experienceSpan: "January 2019 - May 2021",
 
       companyName: "Optimize IT Systems",
       experienceDetails:
