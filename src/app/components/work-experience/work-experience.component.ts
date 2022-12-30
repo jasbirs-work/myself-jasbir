@@ -17,10 +17,7 @@ export class WorkExperienceComponent implements OnInit {
       companyName: "Optimize IT Systems",
       experienceDetails:
         "This job involved website development and design using different technologies, where i was given training on different front-end technologies that inluded HTML5, CSS, Javascript, ES6, and JS frameworks. ",
-      designation: "Graduate Trainee",
-      institute: "Guru Nanak Institute of Technology",
-      degree: "Bachelors Degree",
-      degreeName: "Bachelor of Technology",
+      designation: "Graduate Trainee"
     },
     {
       id: 2,
@@ -30,10 +27,17 @@ export class WorkExperienceComponent implements OnInit {
       companyName: "Optimize IT Systems",
       experienceDetails:
         "This job involves website & apps developments and design using different technologies such as Javascript, Angular 8, React Native, HTML, CSS, Bootstrap 4+, LESS, SASS, Material UI Framworks, NG-Bootstrap and many more. This job also involves Live Client support for existing projects for enhancements in different technologies.",
-      designation: "Software Developer",
-      institute: "Guru Nanak Institute of Technology",
-      degree: "Bachelors Degree",
-      degreeName: "Bachelor of Technology",
+      designation: "Software Developer"
+    },
+    {
+      id: 3,
+      name: "Jasbir",
+      experienceSpan: "May 2021 - PRESENT",
+
+      companyName: "Deloitte",
+      experienceDetails:
+        "Full Stack",
+      designation: "Consultant"
     },
   ];
   constructor() {}
